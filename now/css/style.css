@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+#mainOne {
+    display: flex;
+    background-color: chocolate;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 560px;
+    border-bottom: 3px dotted #eee;
+}
+.row {
+    display: flex;
+}
+.left {
+    background-color: aquamarine;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+.right {
+    background-color: blueviolet;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+.one, .two, .three, .four {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    background-color: violet;
+}
